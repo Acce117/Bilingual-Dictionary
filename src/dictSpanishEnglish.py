@@ -1,10 +1,18 @@
-spanish_words = {"perro": "Dog, animal descendent from the wolfs",
-                 "cuchara": "Spoon, utensil used to eat",
-                 "carro": "Car"}
+from json import *
 
-english_words = {"dog": "Perro, animal descendiente de los lobos",
-                 "spoon": "Cuchara, utensilico usado para comer",
-                 "car": "Carro"}
+spanish_words = {}
+
+english_words = {}
+
+
+def load_data(directory):
+    with open(directory) as f:
+        data = f.read()
+    
+    return loads(data)
+
+english_words = load_data("src\data\english_words.txt")
+spanish_words = load_data("src\data\spanish_words.txt")
 
 
 def process_word(word_to_process = ""):

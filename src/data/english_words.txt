@@ -1,0 +1,3 @@
+{"dog": "Perro, animal descendiente de los lobos",
+ "spoon": "Cuchara, utensilico usado para comer",
+ "car": "Carro"}

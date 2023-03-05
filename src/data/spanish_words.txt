@@ -1,0 +1,3 @@
+{"perro": "Dog, animal descendent from the wolfs",
+ "cuchara": "Spoon, utensil used to eat",
+ "carro": "Car"}
