@@ -1,4 +1,4 @@
-spanish_words = {"perro": " Dog, animal descendent from the wolfs",
+spanish_words = {"perro": "Dog, animal descendent from the wolfs",
                  "cuchara": "Spoon, utensil used to eat",
                  "carro": "Car"}
 
